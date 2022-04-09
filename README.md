@@ -1,6 +1,6 @@
 # TimeKart
 E-commerce website using Django
-/n
+&nbsp
 Open Terminal in folder you dowloaded the folder and type:
 >cd TimeKart
 >python manage.py makemigration

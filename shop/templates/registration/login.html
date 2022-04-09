@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+            {% block title %}
+                Login
+            {% endblock %}
+
+       
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <style>
+            body{
+                background: rgb(2,0,36);
+                background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,212,175,1) 35%, rgba(0,212,255,1) 100%);;
+                background-image: url(a.jpg);
+            }
+            .card
+            {
+                background: radial-gradient(rgba(2,0,36,1) 0%, rgba(29,212,175,1) 35%, rgba(0,212,255,1) 100%);;
+            }
+        </style>
+        <script src="" async defer></script>
+
+        {% block content %}
+            <div class="form-group">
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button class="btn btn-secondary" color="white"> Login </button>
+                </form>
+            </div>
+
+        {% endblock %}
+
+    </body>
+</html>

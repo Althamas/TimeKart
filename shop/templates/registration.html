@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+            {% block title %}
+                Register
+            {% endblock %}
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <style>
+            .form-group{
+                background-image: linear-gradient(to right, #8360c3, #2ebf91)
+            }
+        </style>
+
+        {% block content %}
+            <div class="form-group">
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button class="btn btn-secondary" color: white> Register </button>
+                </form>
+            </div>
+
+        {% endblock %}
+
+    </body>
+</html>

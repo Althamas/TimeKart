@@ -1,0 +1,15 @@
+.card-text{
+    color:blue ;
+    font-weight: 800;
+}
+
+.card-title{
+    font-weight: 900;
+}
+
+#div{
+    background-image: url(a.jpg);
+}
+.class{
+    background-image: url(a.jpg);
+}

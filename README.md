@@ -1,10 +1,10 @@
 # TimeKart
 E-commerce website using Django
 Open Terminal in folder you dowloaded the folder and type:
->>cd TimeKart
->>python manage.py makemigration
->>pyhton manage.py migrate
->>python manage.py runserver
+>cd TimeKart
+>python manage.py makemigration
+>pyhton manage.py migrate
+>python manage.py runserver
 
 127.0.0.1:8000/admin
 user: Admin

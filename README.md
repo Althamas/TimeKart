@@ -11,7 +11,9 @@ Open Terminal in folder you dowloaded the folder and type:
 >>python manage.py runserver
 
 127.0.0.1:8000/admin
+\
 user: Admin
+\
 Password: Abcd@1234
 
 or create new admin using command
